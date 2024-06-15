@@ -1,4 +1,4 @@
-export default function Root() {
+export default function Rout() {
   return (
     <>
       <div id="sidebar">
@@ -22,10 +22,10 @@ export default function Root() {
         <nav>
           <ul>
             <li>
-              <a href={`/contacts/1`}>Your Name</a>
+              <a href={`/home`}>Your Name</a>
             </li>
             <li>
-              <a href={`/contacts/2`}>Your Friend</a>
+              <a href={`/contacts`}>Your Friend</a>
             </li>
           </ul>
         </nav>
