@@ -7,6 +7,8 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import './App.css';
 import Root from './routes/root';
+import Home from './pages/home/page';
+import Contacts from './pages/contacts/page';
 
 function App() {
   const darkTheme = createTheme({
@@ -19,6 +21,14 @@ function App() {
     {
       path: '/',
       element: <Root />,
+    },
+    {
+      path: '/home',
+      element: <Home />,
+    },
+    {
+      path: '/contacts',
+      element: <Contacts />,
     },
   ]);
 
